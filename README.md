@@ -23,7 +23,7 @@ that delivers real-time weather updates for any city worldwide.
 ### 📦 Installation
 
 \`\`\`bash
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/manikrishnahero/weather-app.git
 cd weather-app
 npm install
 npm run dev
