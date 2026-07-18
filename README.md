@@ -1,21 +1,41 @@
-<<<<<<< HEAD
-# React + Vite
+🌤️ Real-time Weather App built with React.js & OpenWeather API. Search any city to get live temperature, humidity, wind speed, pressure & feels-like temp. Built using useState, useEffect, Fetch API & error handling.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## 🌤️ Weather App
 
-Currently, two official plugins are available:
+A responsive **Weather App** built with **React.js** and the **OpenWeather API**
+that delivers real-time weather updates for any city worldwide.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🚀 Features
+- 🔍 City-based search with live weather results
+- 🌡️ Displays temperature, feels-like, humidity, wind speed & pressure
+- ⚠️ Error handling for invalid cities or network issues
+- 📱 Fully responsive across all screen sizes
 
-## React Compiler
+### 🛠️ Tech Stack
+| Technology     | Usage                        |
+|----------------|------------------------------|
+| React.js       | UI & component architecture  |
+| useState       | Local state management       |
+| useEffect      | Side effects & API calls     |
+| Fetch API      | REST API integration         |
+| OpenWeather API| Real-time weather data       |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📦 Installation
 
-## Expanding the Oxlint configuration
+\`\`\`bash
+git clone https://github.com/your-username/weather-app.git
+cd weather-app
+npm install
+npm run dev
+\`\`\`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-=======
-# Weather-App
-Weather App Project using React
->>>>>>> dccb720c66c7888b999d663ba7f25b96fbff8e72
+### 🔑 Setup API Key
+
+1. Get a free key at [openweathermap.org](https://openweathermap.org/api)
+2. Replace in your code:
+\`\`\`js
+const API_KEY = "your_api_key_here";
+\`\`\`
+
+### 🌐 Live Demo
+[View Live →](https://weather-app-zeta-nine-79.vercel.app/)
